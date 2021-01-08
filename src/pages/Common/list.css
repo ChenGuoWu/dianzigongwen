@@ -1,0 +1,106 @@
+#textarea {
+    width: 100%;
+    height: 130px;
+    border: 1px solid rgb(241, 241, 241);
+    position: relative;
+}
+
+.yijian-content {
+    /* position: relative; */
+}
+
+.yijian-content .textarea-success {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    color: royalblue
+}
+
+.main {
+    /* font-size: 18px; */
+    padding: 0 6px;
+    /* height: 100%; */
+}
+
+p {
+    text-align: left;
+}
+
+.row {
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.linebold {
+    border-bottom: 5px solid rgb(238, 238, 238);
+    text-align: left;
+}
+
+.liuc {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.height {
+    line-height: 40px;
+    text-align: left;
+    font-weight: bold
+}
+
+.line {
+    border-bottom: 2px solid rgb(238, 238, 238);
+    text-align: left;
+}
+
+.file {
+    color: rgb(30, 108, 254);
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    align-items: baseline;
+}
+
+footer .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.van-button--normal {
+    /* font-size: 18px; */
+}
+
+.btn button {
+    border-radius: 7px;
+    flex: 1;
+    min-width: 40%;
+    display: none;
+    height: 40px;
+    margin: 0px 4px 8px 4px;
+    max-width: 100%;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.yijian {
+    padding: 0 6px;
+}
+
+.group {
+    padding: 0 16px;
+    font-size: 16px;
+}
+
+.van-radio {
+    margin-top: 8px;
+}
